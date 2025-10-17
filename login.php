@@ -1,6 +1,6 @@
 <?php
 session_start();
-$username_valid = "arzaki";
+$username_valid = "admin";
 $password_valid = "123456";
 
 if (!isset($_POST['username']) || !isset($_POST['password'])) {
